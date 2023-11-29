@@ -1,0 +1,51 @@
+/* Add your CSS styling here */
+
+.welcome-page {
+  background-image: url("x.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+  }
+
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-btn, .signup-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .login-btn {
+    background-color:blue;
+    color: white;
+  }
+  
+  .signup-btn {
+    background-color:rgb(0, 255, 221);
+    color: white;
+  }
+  
+  .login-btn:hover, .signup-btn:hover {
+    opacity: 0.8;
+  }
+  

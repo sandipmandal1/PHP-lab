@@ -1,0 +1,13 @@
+body{
+    background-image: url("p.jpg");
+    background-position: center ;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+h1{
+
+    color:green;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
